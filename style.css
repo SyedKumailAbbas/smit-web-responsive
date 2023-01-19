@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+}
+
+.container{
+    background-color: white;
+}
+
+.button1:hover{
+    transform: scale(1.2);
+
+}
+.caroselbg{
+background-image:url(./pics/carousal_background.d77d94e41c5a71ae581f.png) ;
+}
+h4{
+    color: blue;
+}
+h2{
+    font-weight: bolder;
+    font-size:xx-large;
+}
+.peachbg{
+    background-color: rgb(252, 243, 142);
+}
+
+.padd20{
+    padding: 20px;
+}
+.widthfit{
+    width: max-content;
+}
+
+.padd40{
+    padding-top: 60px;
+}
+.greencard{
+    border-radius: 30px;
+}
+h5{
+    font-weight: bolder;
+}
+.circlerad{
+    border-radius: 40px;
+    width: 100px;
+}
+.bluebgpics{
+    background-image:url(./images/bluebg.webp); 
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+} 
+
+h3{
+    font-weight: bold;
+}
+p{
+    color: green;
+}
+iframe{
+    width: 200px;
+    height:300px ;
+    opacity: 0.8;
+}
+.cardheight{
+    height: 200px;
+    background-color: whitesmoke;
+}
+iframe:hover{
+    opacity: 1;
+}
+.imgwidth{
+    width: 100%;
+
+}
+.animationdiv{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(62, 193, 237);
+    padding-top: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 250px 10px rgb(62, 193, 237);
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes anim{
+    0%{background-color: rgb(205, 228, 172);  box-shadow: 10px 10px 250px 10px  rgb(205, 228, 172);}
+    25%{background-color: rgb(127, 228, 127);  box-shadow: 10px 10px 250px 10px rgb(127, 228, 127);}
+    50%{background-color: rgb(62, 193, 237);  box-shadow: 10px 10px 250px 10px rgb(62, 193, 237);}
+    100%{background-color: rgb(2, 138, 138);  box-shadow: 10px 10px 250px 10px rgb(2, 138, 138);}
+
+}
+#emailbox{
+    border-radius: 4px;
+    border: 1.5px solid white;
+    width: 300px;
+    background-color: transparent;
+    box-shadow: 10px 10px 650px 10px black;
+}
+.subbutton{
+    width: 110px;
+}
+.subbutton:hover{
+    background-color: white;
+    transform: scale(1.1);
+    text-transform: uppercase;
+}
+#subhead{
+    color: white;
+}
+.blackbg{
+    background-color: black;
+    color: white;
+}
